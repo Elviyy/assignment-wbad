@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.167);
+    border-radius: 2rem;
+    color: rgba(0, 0, 0, 0.648);
+    gap: 1rem;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    padding: 2rem;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.car-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background-color: rgba(128, 128, 128, 0.111);
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.car-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    font-weight: 600;
+}
+
+.choose-car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.input-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 0.5rem;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.order-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    background: #1976d2;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0.2rem 0;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #1565c0;
+}
+#save-order {
+    background: #43a047;
+}
+#save-order:hover {
+    background: #388e3c;
+}
+
+.order-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 0.5rem;
+    background-color:white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 5px solid rgba(128, 128, 128, 0.111);
+    width: 500px;
+}
+
+.order-detail  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left
+}
+
+form h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+/* --- Card for Order List --- */
+.order-item {
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    margin: 16px 0;
+    padding: 18px 20px;
+    transition: box-shadow 0.2s;
+    border: 1.5px solid #e0e0e0;
+}
+.order-item button {
+    background: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.order-item button:hover {
+    background: #d9363e;
+}
+
+/* --- Summary & List Car --- */
+#car-choosen, #summary {
+    background: #f5f7fa;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    font-size: 1rem;
+}
+#summary b {
+    color: #1976d2;
+}
+
+/* --- Form & Input --- */
+input[type="text"], input[type="date"], input[type="number"] {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1.5px solid #bdbdbd;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    background: #fafbfc;
+    transition: border 0.2s;
+}
+input[type="text"]:focus, input[type="date"]:focus, input[type="number"]:focus {
+    border: 1.5px solid #1976d2;
+    outline: none;
+}
+
+/* --- Responsive --- */
+@media (max-width: 900px) {
+    .car-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+    }
+    form {
+        width: 100%;
+        min-width: 0;
+    }
+}
+@media (max-width: 600px) {
+    main, .form, .car-container {
+        padding: 0.5rem;
+    }
+    .order-item {
+        padding: 10px 8px;
+    }
+    form {
+        width: 100%;
+        padding: 0.5rem;
+    }
+}
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="/detail/home.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>ABC COMPANY</h1>
+            <h2>Car's Rent</h2>
+        </nav>
+    </header>
+    <main>
+        <section class="title">
+            <h2>List Mobil Disewa</h2>
+        </section>
+        <section class="car-container">
+            <div class="car-item">
+                <img src="/Assets/Avanza.png">
+                <div class="car-info">
+                    <div>Toyota Avanza</div>
+                    <div>Rp 500.000 / hari</div>
+                </div>
+                <div class="choose-car">
+                    <div class="input-date">
+                        <label>Input mulai sewa</label>
+                        <input type="date" id="date-car-1">
+                    </div>
+                    <div class="input-date">
+                        <label>Input durasi sewa (Days)</label>
+                        <input type="number" id="duration-car-1">
+                    </div>
+                    <div class="check">
+                        <label>Choose This Car</label>
+                        <input type="checkbox" id="choose-car-1">
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-item">
+                <img src="/Assets/Innova.png">
+                <div class="car-info">
+                    <div>Toyota Kijang Innova</div>
+                    <div>Rp 700.000 / hari</div>
+                </div>
+                <div class="choose-car">
+                    <div class="input-date">
+                        <label>Input mulai sewa</label>
+                        <input type="date" id="date-car-2">
+                    </div>
+                    <div class="input-date">
+                        <label>Input durasi sewa (Days)</label>
+                        <input type="number" id="duration-car-2">
+                    </div>
+                    <div class="check">
+                        <label>Choose This Car</label>
+                        <input type="checkbox" id="choose-car-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-item">
+                <img src="/Assets/Innova.png">
+                <div class="car-info">
+                    <div>Honda HRV </div>
+                    <div>Rp 600.000 / hari</div>
+                </div>
+                <div class="choose-car">
+                    <div class="input-date">
+                        <label>Input mulai sewa</label>
+                        <input type="date" id="date-car-3">
+                    </div>
+                    <div class="input-date">
+                        <label>Input durasi sewa (Days)</label>
+                        <input type="number" id="duration-car-3">
+                    </div>
+                    <div class="check">
+                        <label>Choose This Car</label>
+                        <input type="checkbox" id="choose-car-3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-item">
+                <img src="/Assets/Sigra.png">
+                <div class="car-info">
+                    <div>Daihatsu Sigra </div>
+                    <div>Rp 450.000 / hari</div>
+                </div>
+                <div class="choose-car">
+                    <div class="input-date">
+                        <label>Input mulai sewa</label>
+                        <input type="date" id="date-car-4">
+                    </div>
+                    <div class="input-date">
+                        <label>Input durasi sewa (Days)</label>
+                        <input type="number" id="duration-car-4">
+                    </div>
+                    <div class="check">
+                        <label>Choose This Car</label>
+                        <input type="checkbox" id="choose-car-4">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <form>
+                <h2>Order Detail</h2>
+                <div class="order-detail">
+                    <div class="form-card">
+                        <div id="car-choosen">List Car :</div>
+                    </div>
+                    <div class="form-card">
+                        <label>Nama Pelanggan</label>
+                        <input type="text" placeholder="Input Nama" id="nama-pelanggan">
+                    </div>
+                    <div class="form-card">
+                        <div id="summary">Summary :</div>
+                    </div>
+                    <div class="form-card"> 
+                        <button type="submit" id="count" >Price Total</button>
+                    </div>
+                    <div class="form-card"> 
+                        <button type="button" id="save-order">Simpan Pemesanan</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+    <div id="daftar-pemesanan"></div>
+    <script src="/detail/home.js"></script>
+</body>
+
+</html>
